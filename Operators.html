@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Operators.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Operators(){
+        var val1=parseInt(document.getElementById("value1").value);
+        var val2=parseInt(document.getElementById("value2").value);
+        var op=document.getElementById("Op").value;
+       switch(op){
+        case '+':{
+             var ans=document.getElementById("ans");
+        ans.value=val1 + val2;
+        break;
+        }
+        case '-':{
+             var ans=document.getElementById("ans");
+        ans.value=val1 - val2;
+        break;
+        }
+        case '*':{
+             var ans=document.getElementById("ans");
+        ans.value=val1 * val2;
+        break;
+        }
+        case '/':{
+             var ans=document.getElementById("ans");
+        ans.value=val1 / val2;
+        break;
+        }
+       }
+       
+        }
+    
+      
+   
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+        
+        <label>First Number</label>
+    <input type="number" name="value1" onInput="Operators()" value="" id="value1">  
+    <label>Second Number</label>
+    <input type="number" name="value2" value="" onInput="Operators()"  id="value2">
+    <label>Operators <span style="color: red;">+,-,*,/</span></label>
+    <input type="number" name="value2" value="" onInput="Operators()"  id="Op">
+    <label>Answer</label>
+    <input type="number" name="ans" value="" id="ans" disabled>
+ 
+</div>
+</div>
+    
+    
+</body>
+</html>
