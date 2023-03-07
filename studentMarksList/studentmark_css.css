@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 90vh;
+}
+.header {
+  height: 100px;
+  background-color: firebrick;
+}
+.mainheading{
+    text-align: center;
+    margin:0;
+}
+.container {
+   
+  display: grid;
+  grid-template-rows:200px 400px;
+  gap: 20px;
+  width: 500px;
+  border: 2px solid black;
+  margin-top: 10px;
+margin: 0 60px;
+}
+
+.input-inner {
+  width: 700px;
+  height: 200px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+}
+.student {
+  width: 200px;
+  height: 25px;
+  margin: 0 20px;
+}
+.inner-label {
+  margin: 0 20px;
+}
+[class$="label"] {
+  font-family: monospace;
+  font-size: 17px;
+}
+.marks {
+  height: 400px;
+  width: 500px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-flow: column wrap;
+}
+.mark {
+  margin: 5px 30px;
+  width: 200px;
+  height: 25px;
+}
+.marks-label {
+  margin: 0 30px;
+}
+.submit {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 15px;
+  align-self: flex-end;
+  margin-right: 10px;
+  width: 100px;
+  height: 25px;
+}
+.two{
+    width:700px;
+    height:580px;
+    border: 2px solid black;
+   margin-left: 700px;
+   margin-top: -600px;
+}

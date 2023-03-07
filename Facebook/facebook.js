@@ -10,26 +10,27 @@ if((emailId.value.match(matchSymbol) !="@")&(password.value == "")){
   errorMessage2.style.display="inline-block";
   emailId.style.borderColor="red";
   password.style.borderColor="red";
+  return false;
 }
 else if ((password.value != "")&(emailId.value.match(matchSymbol) !="@")){
   errorMessage2.style.display="none";
   errorMessage1.style.display="inline-block";
   password.style.borderColor="#dddfe2";
   emailId.style.borderColor="red";
-
+  return false;
 }
 else if ((password.value == "")&(emailId.value.match(matchSymbol) =="@")){
   errorMessage1.style.display="none";
   errorMessage2.style.display="inline-block";
   emailId.style.borderColor="#dddfe2";
   password.style.borderColor="red";
-
+  return false;
 }
 else{
   errorMessage1.style.display="none";
   errorMessage2.style.display="none";
   password.style.borderColor="#dddfe2";
   emailId.style.borderColor="#dddfe2";
+return true;
 }
-
 }
