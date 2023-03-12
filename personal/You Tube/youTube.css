@@ -1,0 +1,169 @@
+/* @media(max-device-width : 1620px)  
+{  */
+body{
+    margin: 0;
+    padding:0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    
+}
+.background{
+    background-image: url(./IN-en-20221228-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size:cover;
+    position:relative;
+    height: 104vh; 
+}
+.linear{
+    background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+    position:absolute;
+    min-width:100%;
+    min-height:100%;
+}
+/* *{
+    outline: 2px solid white;
+} */
+.nav{
+    position:absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between; 
+    min-height:50px;
+}
+.logo{
+    position: relative;
+    bottom: 30px;
+
+   
+}
+.logo img{
+width:250px;
+}
+.sign{
+    display: flex;
+    position: absolute;
+right:10px;
+    top:30px;
+    gap: 30px;
+   
+}
+.select{
+    position: relative;
+    left:60px;
+    padding:7px 17px;
+    color:white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    background:transparent;
+}
+option{
+    color:black;
+    background:transparent;
+    word-spacing:10em;
+}
+
+.sign-button{
+    position: relative;
+    left:90px;
+    letter-spacing:1px;
+    padding:7px 17px;
+    border: none;
+    background-color:#e50914;
+    color:white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+   
+}
+.hero{
+    position: relative;
+    top: 220px;
+    color:white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    flex-direction: column;
+    line-height: 65px;
+    text-align: center;
+}
+h1{
+ width:60%;
+}
+a{
+    color:white;
+    text-decoration: none;  
+}
+.para1{
+    letter-spacing :0!important;
+    position: relative;
+    bottom:70px;
+   font-size:25px; 
+   font-weight: 450;
+}
+.se{
+    letter-spacing :0!important;
+    font-size:20px;
+    color:white;
+    position:relative;
+    bottom:130px;
+}
+#input{
+    width:35%;
+    height:58px;
+    position:relative;
+    bottom:151px;
+    right:8%;
+    border:none;
+    outline: none;
+    border-radius: 2px;
+}
+#GetStarted{
+    background-color: #e50914;
+    letter-spacing :0!important;
+    height: 60px;
+    border: none;
+    color:white;
+    width:15%;
+    font-size: 25px;
+    position:relative;
+    bottom:211px;
+    left:17%;
+    font-weight: 500;
+    cursor: pointer;
+    
+    
+}
+input[type="email"]::placeholder{
+    letter-spacing:1px;
+    position: relative;
+    left: 10px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; 
+}
+
+@media(max-device-width : 1206px)  
+{
+  /*   *{
+        outline: 2px solid white;
+    } */
+    .sign{
+        display: flex;
+        gap:30px;
+        position: absolute;
+        right:60px; 
+    }
+    .sign-button{
+        position: relative;
+        left:30px;
+    }
+    .select{
+        position: relative;
+        left:30px;
+    }
+    .hero{
+        position: relative;
+         top:300px;
+         right:110px;
+    }
+}

@@ -1,0 +1,14 @@
+bg
+1)#FFFFFF white
+2)#FBFBFD
+3)#424245 light grey
+ text 
+1)#86868B
+2)#6E6E73
+3)#424245
+link 
+1)#2997FF
+2)#0066CC
+border
+#6E6E73
+cccccc

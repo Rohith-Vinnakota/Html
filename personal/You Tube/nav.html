@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+        }
+        .navg{
+            background-color: cadetblue;
+            margin-top:-20px;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* gap:40px; */
+        }
+        li{
+            list-style: none;
+            display: block;
+            padding: 20px;
+            border-radius:5px;
+            font-size: large;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            position: relative;
+        }
+        li::before{
+            content: "";
+            position: absolute;
+            width:0;
+            height:3px;
+            top:45px;
+            transition: all 0.3s ease-in-out;
+        }
+        li:hover::before{
+            width:80px;
+            color:crimson;
+            background-color: black;
+        }
+        li:hover{
+            color:crimson;
+            
+        }
+        @media only screen and (max-device-width:593px) {
+            ul{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 0;
+            }
+            li:hover{
+                width:80px;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navg">
+        <ul>
+            <li>Know</li>
+            <li>About</li>
+            <li>Settings</li>
+            <li>Live</li>
+            <li>Program</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

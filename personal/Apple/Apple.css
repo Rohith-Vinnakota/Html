@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+.nag{
+    background-color: rgb(36, 35, 35);
+    /* color:#424245; */
+    color:white;
+    
+
+}
+ul{
+    
+    display:flex;
+    margin:0 auto;
+    border:0;
+    flex-direction: row;
+   gap:40px;
+   width:100%;
+   height:auto;
+    flex-wrap:nowrap;
+    height:40px;
+    padding-left:300px;
+    padding-top:20px;
+}
+li{
+    list-style: none;
+
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+.hero{
+   /*  border:2px solid black; */
+    position:relative;
+    top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+img{
+    width:800px;
+}
+h1{
+    font-size:50px;
+}
+.inner{
+    display:flex;
+    flex-direction: column;
+    line-height: 0;
+padding-top:30px;
+    text-align:center;
+}
+/* *{
+    border:2px solid black;
+} */
+.btn{
+    margin-left: 320px;
+    width: 150px;
+    padding:7px;
+    background-color: transparent;
+    border-radius:30px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 0.5px solid #424245;
+    color:#424245bb; 
+    
+}
+p{
+    font-size: 29px;
+}
