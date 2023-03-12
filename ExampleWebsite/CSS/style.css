@@ -261,30 +261,3 @@ a:hover::before {
   width: 200px;
   height: 200px;
 }
-
-/* @media screen and(min-width:1024px) {
-    .image img {
-        width: 500px;
-    }
-
-    .content {
-        width: 100px;
-    }
-} */
-
-/* @media  screen and (min-width:320px) {
-    .hero{
-    
-        width: 100%;
-        flex-direction: column;
-    }
-    .image{
-        margin: 0 auto;
-    }
-    .content{
-        margin: 0 auto;
-    }
-    .second-container{
-
-    }
-} */
