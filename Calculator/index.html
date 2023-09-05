@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/Calculator/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">
+        <input type="text" name="result" id="result" value=" " disabled />
+        <div class="row1">
+          <input
+            type="button"
+            value="1"
+            onclick="display('1')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="2"
+            onclick="display('2')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="3"
+            onclick="display('3')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="+"
+            onclick="display('+')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="C"
+            onclick="allclear()"
+            class="btn-items btn"
+          />
+        </div>
+        <div class="row2">
+          <input
+            type="button"
+            value="4"
+            onclick="display('4')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="5"
+            onclick="display('5')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="6"
+            onclick="display('6')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="-"
+            onclick="display('-')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="/"
+            onclick="display('/')"
+            class="btn-items btn"
+          />
+        </div>
+        <div class="row3">
+          <input
+            type="button"
+            value="7"
+            onclick="display('7')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="8"
+            onclick="display('8')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="9"
+            onclick="display('9')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="*"
+            onclick="display('*')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="%"
+            onclick="display('%')"
+            class="btn-items btn"
+          />
+        </div>
+        <div class="row4">
+          <input
+            type="button"
+            value="0"
+            onclick="display('0')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="00"
+            onclick="display('00')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="."
+            onclick="display('.')"
+            class="btn-items btn"
+          />
+          <input
+            type="button"
+            value="="
+            onclick="answer()"
+            class="btn-items btn equal"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="/Calculator/index.js"></script>
+  </body>
+</html>
